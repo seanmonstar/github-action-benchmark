@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1720531815251,
+  "lastUpdate": 1720531819041,
   "entries": {
     "Rust Benchmark": [
       {
@@ -27643,6 +27643,46 @@ window.BENCHMARK_DATA = {
             "value": 42.81402316888173,
             "unit": "ns",
             "range": "± 0.10247881580990899"
+          }
+        ]
+      }
+    ],
+    "Catch2 Benchmark (v3)": [
+      {
+        "commit": {
+          "author": {
+            "email": "sam@samxie.me",
+            "name": "Sam Xie",
+            "username": "XSAM"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "fe4e90e7735310d03ca4b1d8f0eb1d425c55be00",
+          "message": "Fix broken links to github actions (#253)",
+          "timestamp": "2024-06-19T21:55:27+02:00",
+          "tree_id": "133b0c86f676b3f67de7ba8141fe165421647295",
+          "url": "https://github.com/seanmonstar/github-action-benchmark/commit/fe4e90e7735310d03ca4b1d8f0eb1d425c55be00"
+        },
+        "date": 1720531817505,
+        "tool": "catch2",
+        "benches": [
+          {
+            "name": "Fibonacci 10",
+            "value": 146.393,
+            "range": "± 0.16271",
+            "unit": "ns",
+            "extra": "100 samples\n198 iterations"
+          },
+          {
+            "name": "Fibonacci 20",
+            "value": 19.9671,
+            "range": "± 196.312",
+            "unit": "us",
+            "extra": "100 samples\n2 iterations"
           }
         ]
       }
