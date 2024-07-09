@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1720531870814,
+  "lastUpdate": 1720531932923,
   "entries": {
     "Rust Benchmark": [
       {
@@ -27811,6 +27811,68 @@ window.BENCHMARK_DATA = {
             "value": 44924,
             "unit": "ns",
             "extra": "gctime=0\nmemory=0\nallocs=0\nparams={\"gctrial\":true,\"time_tolerance\":0.05,\"evals_set\":false,\"samples\":10000,\"evals\":1,\"gcsample\":false,\"seconds\":5,\"overhead\":0,\"memory_tolerance\":0.01}"
+          }
+        ]
+      }
+    ],
+    "Criterion.rs Benchmark": [
+      {
+        "commit": {
+          "author": {
+            "email": "sam@samxie.me",
+            "name": "Sam Xie",
+            "username": "XSAM"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "fe4e90e7735310d03ca4b1d8f0eb1d425c55be00",
+          "message": "Fix broken links to github actions (#253)",
+          "timestamp": "2024-06-19T21:55:27+02:00",
+          "tree_id": "133b0c86f676b3f67de7ba8141fe165421647295",
+          "url": "https://github.com/seanmonstar/github-action-benchmark/commit/fe4e90e7735310d03ca4b1d8f0eb1d425c55be00"
+        },
+        "date": 1720531931794,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "BenchFib10",
+            "value": 225,
+            "range": "± 0",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "BenchFib20",
+            "value": 22190,
+            "range": "± 385",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Fibonacci/Recursive/20",
+            "value": 22198,
+            "range": "± 153",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Fibonacci/Iterative/20",
+            "value": 3,
+            "range": "± 0",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Fibonacci/Recursive/21",
+            "value": 35927,
+            "range": "± 41",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Fibonacci/Iterative/21",
+            "value": 4,
+            "range": "± 0",
+            "unit": "ns/iter"
           }
         ]
       }
