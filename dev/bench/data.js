@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1591796792063,
+  "lastUpdate": 1720531771871,
   "entries": {
     "Rust Benchmark": [
       {
@@ -22739,6 +22739,44 @@ window.BENCHMARK_DATA = {
             "extra": "mean: 2.4110147870819794 msec\nrounds: 418"
           }
         ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "sam@samxie.me",
+            "name": "Sam Xie",
+            "username": "XSAM"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "fe4e90e7735310d03ca4b1d8f0eb1d425c55be00",
+          "message": "Fix broken links to github actions (#253)",
+          "timestamp": "2024-06-19T21:55:27+02:00",
+          "tree_id": "133b0c86f676b3f67de7ba8141fe165421647295",
+          "url": "https://github.com/seanmonstar/github-action-benchmark/commit/fe4e90e7735310d03ca4b1d8f0eb1d425c55be00"
+        },
+        "date": 1720531770708,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "bench.py::test_fib_10",
+            "value": 77275.21146669533,
+            "unit": "iter/sec",
+            "range": "stddev: 7.748160070294727e-7",
+            "extra": "mean: 12.94076044594181 usec\nrounds: 37766"
+          },
+          {
+            "name": "bench.py::test_fib_20",
+            "value": 607.820720913407,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00004815429924850624",
+            "extra": "mean: 1.6452219636363217 msec\nrounds: 605"
+          }
+        ]
       }
     ],
     "C++ Benchmark": [
@@ -27428,5 +27466,5 @@ window.BENCHMARK_DATA = {
       }
     ]
   },
-  "repoUrl": "https://github.com/rhysd/github-action-benchmark"
+  "repoUrl": "https://github.com/seanmonstar/github-action-benchmark"
 }
